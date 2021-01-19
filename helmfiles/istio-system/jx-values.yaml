@@ -38,7 +38,7 @@ jxRequirements:
     domain: ""
     externalDNS: false
     kind: istio
-    namespaceSubDomain: -tekton-pipelines.
+    namespaceSubDomain: -istio-system.
     tls:
       email: ""
       enabled: false
