@@ -14,7 +14,7 @@ releases:
   values:
   - jx-values.yaml
 - chart: jxgh/acme
-  version: 0.0.24
+  version: 0.1.0
   name: acme-jx
   values:
   - ../../versionStream/charts/jxgh/acme-jx/values.yaml.gotmpl
