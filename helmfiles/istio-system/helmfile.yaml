@@ -1,8 +1,8 @@
-filepath: ""
 environments:
   default:
     values:
     - jx-values.yaml
+---
 namespace: istio-system
 repositories:
 - name: jxgh
@@ -19,5 +19,3 @@ releases:
   values:
   - ../../versionStream/charts/jxgh/acme-jx/values.yaml.gotmpl
   - jx-values.yaml
-templates: {}
-renderedvalues: {}

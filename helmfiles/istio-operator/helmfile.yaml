@@ -1,8 +1,8 @@
-filepath: ""
 environments:
   default:
     values:
     - jx-values.yaml
+---
 namespace: istio-operator
 repositories:
 - name: jx-istio
@@ -13,5 +13,3 @@ releases:
   name: istio-operator
   values:
   - jx-values.yaml
-templates: {}
-renderedvalues: {}
